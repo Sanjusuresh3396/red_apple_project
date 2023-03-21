@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(205,219,232);
+}
+.row {
+    --bs-gutter-x: 0px !important;
+}
+/* side menu */
+.side-menu{
+  background-color: rgb(32,44,65);
+  height: 100%;
+  width: 100%;
+}
+.right-menu{
+  background-color: rgb(32,44,65);
+  height: auto;
+  width: 100%;
+}
+
+.logo{
+  width: 75px;
+  height: 70px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+.sidemenu-title{
+  font-size: 12px;
+  cursor: pointer;
+}
+.sidemenu-box{
+color:rgb(99,113,135) ;
+cursor: pointer;
+align-items: center;
+text-align: center;
+}
+.sidemenu-box:hover{
+  color: white;
+}
+.fa-solid.fa-house {
+  padding-top: 30px;
+
+  width: 30px;
+  height: 30px;
+}
+.fa-solid.fa-chart-simple{
+  padding-top: 30px;
+
+  width: 30px;
+  height: 30px;
+}
+.fa-solid.fa-credit-card{
+  padding-top: 30px;
+
+  width: 30px;
+  height: 30px;
+}
+.fa-solid.fa-store{
+  padding-top: 30px;
+
+  width: 30px;
+  height: 30px;
+}
+.fa-brands.fa-intercom{
+  padding-top: 30px;
+
+  width: 30px;
+  height: 30px;
+}
+.sidemenu-separation {
+  border: 0.5px solid rgb(99,113,135) ;
+  margin: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.profile{
+  width: 30px;
+  height: 30px;
+margin-left: 40px;
+border-radius: 100%;
+}
+.profile-name{
+  font-size: 12px;
+  color: rgb(99,113,135);
+  padding-left: 30px;
+  font-weight: bold;
+  
+}
+.box {
+  align-items: center;
+  text-align: center;
+}
+
+
+/* header section */
+.search-icons {
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 80px;
+  padding-left: 10px;
+  background-color: white;
+  font-size: 12px; 
+  
+}
+.fa-solid.fa-sun{
+  padding: 12px;
+ color: rgb(249,190,36);
+}
+.fa-solid.fa-bell{
+  padding: 12px;
+ color: rgb(99,113,135);
+}
+.fa-solid.fa-bars{
+  padding: 12px;
+ color: rgb(99,113,135);
+}
+
+/* left body heading */
+.total-balance{
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 12px;
+  margin: 0;
+}
+.dolor{
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin: 0;
+}
+.fa-solid.fa-arrow-up{
+  font-size: 10px;
+  padding: 1px;
+  background-color: rgb(4,181,69);
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.date{
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+}
+.view-analytics{
+  padding-top: 35px;
+  padding-left: 20px;
+  font-size: 12px;
+  font-weight:bold;
+  margin: 0;
+  cursor: pointer;
+}
+.fa-solid.fa-eye{
+padding-right: 5px;
+cursor: pointer;
+}
+.divider{
+  height: 50%;
+  width: 2px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: rgb(99,113,135);
+  
+}
+.btn.btn-primary{
+background-color: rgb(93,46,244);
+border: none;
+margin-top: 30px;
+margin-left: 20px;
+font-size: 12px;
+}
+.btn.btn-light{
+  border: none;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: rgb(93,46,244);
+  font-weight: bold;
+}
+.fa-solid.fa-ellipsis{
+  padding: 10px;
+  margin-top: 25px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* left body middle content */
+.content{
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 5px;
+  margin-top: 25px;
+  box-shadow: 4px 4px 4px 4px rgb(211, 209, 209);
+}
+.fa-solid.fa-dollar-sign{
+  padding: 15px;
+  background-color: rgb(93,46,244);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  box-shadow: 4px 0px 2px 2px rgb(211, 209, 209);
+
+}
+.sub-title{
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: grey;
+  margin: 0;
+}
+.fa-solid.fa-arrow-up{
+  color: white;
+}
+.percentage-up{
+  text-decoration: none;
+  color: rgb(4,181,69);
+}
+.percentage-down{
+  text-decoration: none;
+  color: rgb(254,151,2);
+}
+.balance{
+font-size: 20px;
+margin: 0;
+font-weight: bold;
+padding-left: 10px;
+padding-bottom: 10px;
+}
+.fa-solid.fa-right-from-bracket{
+  padding: 15px;
+  background-color: rgb(254,151,2);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  box-shadow: 4px 0px 2px 2px rgb(211, 209, 209);
+}
+.fa-solid.fa-arrow-down{
+  font-size: 10px;
+  padding: 1px;
+  background-color: rgb(254,151,2);
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.fa-solid.fa-comments-dollar{
+  padding: 15px;
+  background-color: rgb(15,164,231);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  box-shadow: 4px 0px 2px 2px rgb(211, 209, 209);
+}
+
+/* left body middle content */
+.content1{
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  box-shadow: 4px 4px 4px 4px rgb(211, 209, 209);
+}
+.recent{
+  padding: 10px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+}
+.last{
+  padding: 12px;
+  font-size: 12px;
+  color: grey;
+  margin: 0;
+}
+.view-all{
+  text-decoration: none;
+  padding-top: 13px;
+  font-size: 10px;
+  color: blue;
+  cursor: pointer;
+  margin: 0;
+}
+.separation{
+  border: 0.5px solid rgb(191, 191, 192) ;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.employe{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.name{
+margin: 0;
+padding-left: 10px;
+padding-top: 8px;
+font-size: 15px;
+}
+.date-time{
+margin: 0;
+padding-left: 10px;
+font-size: 10px;
+color: grey;
+line-height: 1;
+}
+.vendor{
+  font-size: 12px;
+  padding-top: 20px;
+}
+.vendor-dolor{
+  font-size: 12px;
+  padding-top: 20px;
+
+}
+.vendor-dolor-down{
+  font-size: 12px;
+  padding-top: 20px;
+  color: rgb(231,146,122);
+}
+.btn-completed{
+  border-style: solid;
+  border-color: green;
+  border-width: 1px;
+margin-top: 10px;
+margin-left: 20px;
+border-radius: 20px;
+font-size: 10px;
+font-weight: bold;
+color: green;
+padding: 5px;
+width: 80px;
+text-align: center;
+}
+.btn-pending{
+  border-style: solid;
+  border-color: rgb(231,146,122);
+  border-width: 1px;
+margin-top: 10px;
+margin-left: 20px;
+border-radius: 20px;
+font-size: 10px;
+font-weight: bold;
+color: rgb(231,146,122);
+padding: 5px;
+width: 80px;
+text-align: center;
+}
+.fa-solid.fa-ellipsis-vertical{
+padding-top: 15px;
+}
+.diagram{
+  height: 280px;
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+/* right section */
+
+.visa{
+font-size: 15px;
+color: white;
+padding-top: 10px;
+padding-left: 10px;
+font-weight: bolder;
+margin: 0;
+}
+.bussiness{
+  font-size: 12px;
+  color: rgb(131, 129, 129); 
+  padding-left: 10px;
+  margin: 0;
+}
+.virtual{
+  font-size: 12px;
+  color: rgb(131, 129, 129); 
+  float: right;
+  padding-top: 15px;
+  margin: 0;
+  padding-right: 10px;
+}
+.card-number{
+  font-size: 8px;
+  color: rgb(131, 129, 129); 
+  padding-left: 10px;
+  padding-top: 30px;
+  margin: 0;
+}
+.validity{
+  font-size: 8px;
+  color: rgb(131, 129, 129); 
+  padding-left: 10px;
+  padding-top: 30px;
+  margin: 0;
+  float: right;
+  padding-right: 10px;
+}
+.card-name{
+  font-size: 10px;
+  color: rgb(131, 129, 129); 
+  padding-left: 10px;
+  padding-top: 0px;
+}
+.card{
+  background-color: rgb(23,0,85);
+ margin-top: 45px;
+ margin-left: 25px;
+  
+  z-index: 2;
+  position: absolute;
+  
+}
+.card1{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 4px rgb(211, 209, 209);
+  z-index: 1;
+  position: absolute;
+  margin: 120px 10px 10px 10px;
+  
+}
+.beneficiaries{
+  padding-top: 85px;
+  padding-left: 10px;
+  padding-right: 140px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.beni{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.more{
+  font-size: 10px;
+  margin-top: 15px;
+  border: #63768E 1px;
+}
+.view-beni{
+  font-size: 10px;
+  padding-left: 10px;
+  color: grey;
+}
+.fa-solid.fa-arrow-right{
+color: grey;
+float: right;
+padding-right: 20px;
+}
+.psw{
+  padding-top: 10px;
+  margin: 0;
+}
+.commission{
+  padding-top: 10px;
+  padding-left: 10px;
+  color: gray;
+  font-size: 12px;
+  margin: 0;
+}
+.total{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.btn.btn-primary.btn-lg.btn-block{
+  width: 90%;
+  margin: 0;
+  margin-left: 15px;
+  margin-bottom: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+  .profile{
+    display: none;
+    }
+    .profile-name{
+      display: none;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width:900px)
+{
+  .logo{
+    width: 55px;
+    height: 50px;
+  }
+  .profile{
+  margin-left: 10px;
+  }
+  .profile-name{
+    padding-left: 10px; 
+  }
+}
